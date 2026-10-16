@@ -43,5 +43,14 @@
     "image": "/uploads/img_1792169215251.jpg",
     "desc": "鹰眼太空舱检测",
     "detail": ""
+  },
+  {
+    "id": "p1792169328203",
+    "name": "一把野森",
+    "price_usd": 50.0,
+    "category": "race",
+    "image": "/uploads/img_1792169247270.jpg",
+    "desc": "一把野森防脱发",
+    "detail": ""
   }
 ]
