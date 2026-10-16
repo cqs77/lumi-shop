@@ -25,5 +25,14 @@
     "image": "/uploads/img_1792169007781.jpg",
     "desc": "神经系统养护",
     "detail": ""
+  },
+  {
+    "id": "p1792169081428",
+    "name": "心脑抗衰疗养",
+    "price_usd": 100.0,
+    "category": "epic",
+    "image": "/uploads/img_1792169043633.jpg",
+    "desc": "心脑抗衰疗养",
+    "detail": ""
   }
 ]
