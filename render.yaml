@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: lumi-shop
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn server:app --bind 0.0.0.0:$PORT --workers 2 --timeout 60
+    envVars:
+      - key: ADMIN_PASSWORD
+        value: 780124Cq
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_REPO
+        value: 你的用户名/lumi-shop
+      - key: GITHUB_BRANCH
+        value: main
